@@ -45,7 +45,7 @@ When the above steps are completed, sObjects with created test data and a flow w
 - SortCommittedValueAndUncommittedValue : Causing the GACK Error when executing from the Salesforce.com window.
 - UnSortCommittedValueAndUncommittedValue : Not causing the GACK Error.
 ## Execute Flow
-Executing flow from Apex is not error but has no output. 
+Executing flow from Apex is not error. 
 ```
 $ sf apex run --file ./scripts/apex/callflow.apex --target-org <<YOUR SCRATCH ORG ALIAS>>
 ```
